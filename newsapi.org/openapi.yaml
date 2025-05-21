@@ -73,7 +73,7 @@ paths:
             enum: [ar, de, en, es, fr, he, it, nl, no, pt, ru, se, ud, zh]
         - name: sortBy
           in: query
-          description: The order to sort the articles in. Possible options: relevancy, popularity, publishedAt.
+          description: The order to sort the articles in. Possible options- relevancy, popularity, publishedAt.
           required: false
           schema:
             type: string
